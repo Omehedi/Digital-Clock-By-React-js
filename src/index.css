@@ -1,0 +1,42 @@
+body{
+    background-image: url(assets/images/natural.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+
+
+    /*OPTIONAL*/
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 0;
+}
+
+.clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px hsla(0,0%,0%,0.75);
+}
+
+.Step1{
+    color: aqua;
+}
+
+.Step2{
+    color:red;
+}
+
+.Step3{
+    color: green;
+}
